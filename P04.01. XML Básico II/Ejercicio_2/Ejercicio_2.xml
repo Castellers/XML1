@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 25/03/2025
+Ejercicio: P04.02. XML Básico II Ejercicio 2 -->
+<equipos>
+    <!-- Información del equipo Real Madrid -->
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador></entrenador> <!-- El nombre del entrenador no se pone -->
+        <jugadores>
+            <!-- Primer jugador del Real Madrid -->
+            <jugador posicion="delantero">
+                <nombre>Kylian Mbappé</nombre>
+                <nacionalidad>Francia</nacionalidad>
+            </jugador>
+            <!-- Segundo jugador del Real Madrid -->
+            <jugador posicion="delantero">
+                <nombre>Vinícius Júnior</nombre>
+                <nacionalidad>Brasil</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+
+    <!-- Información del equipo Cádiz CF -->
+    <equipo>
+        <nombre>Cádiz CF</nombre>
+        <ciudad>Cádiz</ciudad>
+        <entrenador></entrenador> <!-- El nombre del entrenador no se pone -->
+        <jugadores>
+            <!-- Primer jugador del Cádiz CF -->
+            <jugador posicion="medio">
+                <nombre>Javier Ontiveros</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+            <!-- Segundo jugador del Cádiz CF -->
+            <jugador posicion="defensa">
+                <nombre>Rafael Giménez "Fali"</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>
