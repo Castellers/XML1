@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 18/03/2025
+Ejercicio: P04.01. XML Básico I Ejercicio 3
+-->
+<biblioteca>
+    <libro>
+        <titulo>Crimen y castigo</titulo>
+        <autor>Fiódor Dostoyevski</autor>
+        <año>1866</año>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <año>1949</año>
+    </libro>
+    <libro>
+        <titulo>El nombre del viento</titulo>
+        <autor>Patrick Rothfuss</autor>
+        <año>2007</año>
+    </libro>
+</biblioteca>
