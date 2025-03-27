@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 27/03/2025
+Ejercicio: P04.03. XML Básico III Ejercicio 1 -->
+<catalogo xmlns:os="http://example.com/os" xmlns:office="http://example.com/office">
+    
+    <!-- Software de Sistemas Operativos -->
+    <os:software>
+        <os:nombre>Fedora</os:nombre>
+        <os:version>39</os:version>
+        <os:desarrollador>Red Hat</os:desarrollador>
+        <os:url>https://getfedora.org/</os:url>
+    </os:software>
+
+    <os:software>
+        <os:nombre>Android</os:nombre>
+        <os:version>14</os:version>
+        <os:desarrollador>Google</os:desarrollador>
+        <os:url>https://www.android.com/</os:url>
+    </os:software>
+    
+    <os:software>
+        <os:nombre>Debian</os:nombre>
+        <os:version>12</os:version>
+        <os:desarrollador>Proyecto Debian</os:desarrollador>
+        <os:url>https://www.debian.org/</os:url>
+    </os:software>
+
+    <!-- Software de Aplicaciones de Oficina -->
+    <office:software>
+        <office:nombre>WPS Office Writer</office:nombre>
+        <office:version>11.2</office:version>
+        <office:desarrollador>Kingsoft</office:desarrollador>
+        <office:url>https://www.wps.com/</office:url>
+    </office:software>
+
+    <office:software>
+        <office:nombre>OnlyOffice</office:nombre>
+        <office:version>7.5</office:version>
+        <office:desarrollador>Ascensio System SIA</office:desarrollador>
+        <office:url>https://www.onlyoffice.com/</office:url>
+    </office:software>
+    
+    <office:software>
+        <office:nombre>Zoho Writer</office:nombre>
+        <office:version>2024</office:version>
+        <office:desarrollador>Zoho Corporation</office:desarrollador>
+        <office:url>https://www.zoho.com/writer/</office:url>
+    </office:software>
+</catalogo>
