@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 2/04/2025
+Ejercicio: 05.01. Validación XML - DTD I Ejercicio 1 
+-->
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, editorial, autor, num_paginas)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT autor (nombre, apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT num_paginas (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro>
+        <titulo>Crimen y castigo</titulo>
+        <editorial>The Russian Messenger</editorial>
+        <autor>
+            <nombre>Fiódor</nombre>
+            <apellidos>Dostoyevski</apellidos>
+        </autor>
+        <num_paginas>671</num_paginas>
+    </libro>
+    
+    <libro>
+        <titulo>Orgullo y prejuicio</titulo>
+        <editorial>T. Egerton</editorial>
+        <autor>
+            <nombre>Jane</nombre>
+            <apellidos>Austen</apellidos>
+        </autor>
+        <num_paginas>432</num_paginas>
+    </libro>
+    
+    <libro>
+        <titulo>Moby-Dick</titulo>
+        <editorial>Harper &amp; Brothers</editorial>
+        <autor>
+            <nombre>Herman</nombre>
+            <apellidos>Melville</apellidos>
+        </autor>
+        <num_paginas>585</num_paginas>
+    </libro>
+</biblioteca>

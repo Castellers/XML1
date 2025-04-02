@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jugadores SYSTEM "jugadores.dtd">
+<!--
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 2/04/2025
+Ejercicio: 05.01. Validación XML - DTD I Ejercicio 2  
+-->
+
+<jugadores>
+    <jugador>
+        <nombre>Álvaro</nombre>
+        <apellidos>González</apellidos>
+        <equipo>
+            <ciudad>Madrid</ciudad>
+            <presidente>
+                <nombrePresidente>Fernando</nombrePresidente>
+                <apellidosPresidente>Martínez</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>27</edad>
+    </jugador>
+    
+    <jugador>
+        <nombre>Sergio</nombre>
+        <apellidos>Ramírez</apellidos>
+        <equipo>
+            <ciudad>Barcelona</ciudad>
+            <presidente>
+                <nombrePresidente>José</nombrePresidente>
+                <apellidosPresidente>Hernández</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>30</edad>
+    </jugador>
+    
+    <jugador>
+        <nombre>David</nombre>
+        <apellidos>López</apellidos>
+        <equipo>
+            <ciudad>Valencia</ciudad>
+            <presidente>
+                <nombrePresidente>Manuel</nombrePresidente>
+                <apellidosPresidente>Rodríguez</apellidosPresidente>
+            </presidente>
+        </equipo>
+        <edad>25</edad>
+    </jugador>
+</jugadores>
