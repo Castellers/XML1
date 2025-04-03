@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 3/04/2025
+Ejercicio: 05.02. Validación XML - DTD III Ejercicio 1
+-->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="T45" titulo="El Susurro del Armario" genero="terror">
+  <personajes>
+    <personaje id="P1" tipo="principal">
+      <nombre>Daniel</nombre>
+      <genero>M</genero>
+      <descripcion>Un niño de 8 años que escucha voces en su armario</descripcion>
+    </personaje>
+    <personaje id="P2" tipo="secundario">
+      <nombre>Abuela Rosa</nombre>
+      <genero>F</genero>
+      <descripcion>La abuela de Daniel, la única que le cree</descripcion>
+      <imagen>abuela_rosa.jpg</imagen>
+    </personaje>
+  </personajes>
+  
+  <trama>Daniel descubre que el armario de su habitación contiene una puerta a un mundo donde las pesadillas cobran vida,
+   y solo su abuela parece entender lo que ocurre.</trama>
+  
+  <etiqueta nombre="infantil"/>
+  <etiqueta nombre="suspense"/>
+</cuento>

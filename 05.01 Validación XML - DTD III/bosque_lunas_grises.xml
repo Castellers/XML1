@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 3/04/2025
+Ejercicio: 05.03. Validación XML - DTD III Ejercicio 1
+-->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="F23" titulo="El Bosque de las Lunas Grises" genero="fantasía">
+  <personajes>
+    <personaje id="P1" tipo="principal">
+      <nombre>Liora</nombre>
+      <genero>F</genero>
+      <descripcion>Una joven con la capacidad de hablar con los árboles</descripcion>
+      <descripcion_fisica>Cabello plateado y ojos verdes brillantes</descripcion_fisica>
+    </personaje>
+    <personaje id="P2" tipo="antagonista">
+      <nombre>El Devorador de Sombras</nombre>
+      <genero>N</genero>
+      <descripcion>Una entidad que consume la luz de los sueños</descripcion>
+    </personaje>
+  </personajes>
+  
+  <trama>En un bosque donde la luna proyecta sombras grises, Liora debe recuperar la luz robada por el Devorador antes de que el bosque desaparezca para siempre.</trama>
+  
+  <etiqueta nombre="magia"/>
+  <etiqueta nombre="bosque"/>
+  <etiqueta nombre="aventura"/>
+  
+  <precio moneda="eur">12.50</precio>
+</cuento>
