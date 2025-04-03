@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 3/04/2025
+Ejercicio: 05.02. Validación XML - DTD II Ejercicio 3
+-->
+<!ELEMENT panel_vuelos (nombre_aeropuerto, fecha, vuelo+)>
+<!ELEMENT nombre_aeropuerto (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT vuelo (diario?, origen, destino, hora_salida, hora_llegada)>
+<!ATTLIST vuelo
+  codigo ID #REQUIRED
+  estado (C|E|R) "E">
+
+<!ELEMENT diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT hora_salida (#PCDATA)>
+<!ELEMENT hora_llegada (#PCDATA)>

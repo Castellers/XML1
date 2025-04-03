@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 2/04/2025
+Ejercicio: 05.02. Validación XML - DTD II Ejercicio 1
+-->
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura numero="F20230001" fecha="2023-11-15">
+  <datos-emisor>
+    <nombre>Librería Cervantes S.L.</nombre>
+    <cif>B12345678</cif>
+    <telefono>912345678</telefono>
+  </datos-emisor>
+  <datos-cliente>
+    <nombre>Biblioteca Municipal de Madrid</nombre>
+    <cif>A87654321</cif>
+    <telefono>913456789</telefono>
+  </datos-cliente>
+  <detalle-factura importe="327.50">
+    <linea codigo-articulo="LIB001" tipo="Libro">
+      <descripcion>1984</descripcion>
+      <cantidad>4</cantidad>
+      <pvp>22.00</pvp>
+      <oferta/>
+    </linea>
+    <linea codigo-articulo="LIB002" tipo="Libro">
+      <descripcion>Cien años de soledad</descripcion>
+      <cantidad>3</cantidad>
+      <pvp>18.00</pvp>
+    </linea>
+    <linea codigo-articulo="DVD001" tipo="DVD">
+      <descripcion>Documental: Historia del Arte</descripcion>
+      <cantidad>2</cantidad>
+      <pvp>15.00</pvp>
+    </linea>
+    <linea codigo-articulo="VAR001" tipo="Varios">
+      <descripcion>Estuches para libros</descripcion>
+      <cantidad>10</cantidad>
+      <pvp>5.75</pvp>
+      <oferta/>
+    </linea>
+  </detalle-factura>
+</factura>
