@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Pedraza Crespo
+Curso: ASIR
+Fecha: 11/04/2025
+Ejercicio: P06.04. Validación XML: XSD Ejercicio 4
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="heladería">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="helado" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:choice>
+              <!-- Opción 1: fresa y chocolate -->
+              <xs:sequence>
+                <xs:element name="fresa">
+                  <xs:complexType/>
+                </xs:element>
+                <xs:element name="chocolate">
+                  <xs:complexType/>
+                </xs:element>
+              </xs:sequence>
+              <!-- Opción 2: vainilla y chocolate -->
+              <xs:sequence>
+                <xs:element name="vainilla">
+                  <xs:complexType/>
+                </xs:element>
+                <xs:element name="chocolate">
+                  <xs:complexType/>
+                </xs:element>
+              </xs:sequence>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+
